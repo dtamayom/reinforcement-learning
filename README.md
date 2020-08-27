@@ -1,5 +1,7 @@
 # Reinforcement Learning
-Reinforcement Learning module on Advanced Machine Learning course at Universidad de los Andes
+Reinforcement Learning module on Advanced Machine Learning course at Universidad de los Andes.
+Students: Daniela Tamayo and Isabella Ramos.
+Tutors: Laura Daza and Catalina Gomez
 
 ## Before you begin
 We strongly suggest you create a specific conda enironment for this task. 

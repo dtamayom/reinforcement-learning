@@ -8,7 +8,12 @@ Tutor: Laura Daza
 ## Before you begin
 We strongly suggest you create a specific conda enironment for this task. 
 You will have to ensure that all installed dependencies are compatible, otherwise you will probably have issues while running.
-The required dependencies and their corresponding compatible versions are included in the file `requirements.txt` and you can install them using `pip install -r requirements.txt`.
+The required dependencies and their corresponding compatible versions are included in the file `requirements.txt`. To create the enfironment and install the requirenments we recomend you to use:
+
+`conda create --name rl python=3.7.6`
+`conda activate rl`
+`conda install pytorch torchvision cudatoolkit=10.1 -c pytorch`
+`pip install -r requirements.txt`.
 
 If you have any questions regarding the assignment or RL overall, you can contact us via email or through slack. Remember that you also have the [presentation](RL.pdf) and the [textbook reference books](https://drive.google.com/drive/folders/1bDjUuXlv1xeuA2hJ1TjyjH6WJmZOPTR9?usp=sharing) at your disposal.
 

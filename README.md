@@ -11,7 +11,7 @@ You will have to ensure that all installed dependencies are compatible, otherwis
 The required dependencies and their corresponding compatible versions are included in the file `requirements.txt`. To create the enfironment and install the requirenments we recomend you to use:
 
 ```bash
-~$: `conda create --name rl python=3.7.6`
+~$: `conda create --name rl python=3.7.4`
 ~$: `conda activate rl`
 ~$: `conda install pytorch torchvision cudatoolkit=10.1 -c pytorch`
 ~$: `pip install -r requirements.txt`.

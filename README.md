@@ -29,7 +29,10 @@ If you want to see your CartPole uncomment lines 109 and 124. Then run the code 
 ## Homework
 - Explore and understand the code. Change hyperparameters and try to change the Policy class. Show your results and comment. 
 - For two of your best results graph Episodes vs Avrage reward. Was the graph what you were expecting? Analyze. 
-- Try a different environments, choose between [Acrobot-V1](http://gym.openai.com/envs/Acrobot-v1/) and [MountainCar-V0](http://gym.openai.com/envs/MountainCar-v0/). What ganged with the previous environment? How well did the agent performed? 
+- Try a different environments, choose between [Acrobot-V1](http://gym.openai.com/envs/Acrobot-v1/) and [MountainCar-V0](http://gym.openai.com/envs/MountainCar-v0/). What changed with the previous environment? How well did the agent performed? 
 
+Mountain Car:
 ![image](https://user-images.githubusercontent.com/66916962/92253564-45fd7e00-ee95-11ea-909e-8e4550f8fa47.png)
+
+Acrobot:
 ![image](https://user-images.githubusercontent.com/66916962/92280025-24fd5300-eebe-11ea-8654-f08541bd0cc3.png)

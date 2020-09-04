@@ -27,6 +27,6 @@ Run the tutorial by using this command:
 If you want to see your CartPole uncomment lines 109 and 124. Then run the code on MobaXterm.
 
 ## Homework
-
-
+1. Explore and understand the code. Change hyperparameters such as 
+![image](https://user-images.githubusercontent.com/66916962/92253564-45fd7e00-ee95-11ea-909e-8e4550f8fa47.png)
 ![image](https://user-images.githubusercontent.com/66916962/92252701-35003d00-ee94-11ea-9099-3d40c565ec11.png)

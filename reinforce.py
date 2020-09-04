@@ -81,6 +81,21 @@ def finish_episode():
     del policy.saved_log_probs[:]
 
 
+def save_frames_as_gif(frames, path='./', filename='gym_animation.gif'):
+
+    #Mess with this to change frame size
+    plt.figure(figsize=(frames[0].shape[1] / 72.0, frames[0].shape[0] / 72.0), dpi=72)
+
+    patch = plt.imshow(frames[0])
+    plt.axis('off')
+
+    def animate(i):
+        patch.set_data(frames[i])
+
+    anim = animation.FuncAnimation(plt.gcf(), animate, frames = len(frames), interval=50)
+    anim.save(path + filename, writer='imagemagick', fps=60)
+
+
 def main():
     running_reward = 10
     frames = []
@@ -91,17 +106,12 @@ def main():
             state, reward, done, _ = env.step(action)
             if args.render:
                 env.render()
-            #render = lambda : plt.imshow(env.render(mode='rgb_array'))
-            #im_ani = animation.ArtistAnimation(fig2, ims, interval=50, repeat_delay=3000,
-            #                      blit=True)
-            #render.save('im.mp4', writer=writer)
-            frames.append(env.render(mode="rgb_array"))
+            #frames.append(env.render(mode="rgb_array"))
             policy.rewards.append(reward)
             ep_reward += reward
             if done:
                 break
-    
-        frames[0].save('out.gif', save_all=True, append_images=frames[1:])
+
         running_reward = 0.05 * ep_reward + (1 - 0.05) * running_reward
         finish_episode()
         if i_episode % args.log_interval == 0:
@@ -111,6 +121,7 @@ def main():
             print("Solved! Running reward is now {} and "
                   "the last episode runs to {} time steps!".format(running_reward, t))
             break
+    #save_frames_as_gif(frames)
 
 
 if __name__ == '__main__':

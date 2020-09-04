@@ -19,6 +19,14 @@ The required dependencies and their corresponding compatible versions are includ
 
 If you have any questions regarding the assignment or RL overall, you can contact us via email or through slack. Remember that you also have the [presentation](RL.pdf) and the [textbook reference books](https://drive.google.com/drive/folders/1bDjUuXlv1xeuA2hJ1TjyjH6WJmZOPTR9?usp=sharing) at your disposal.
 
-## Homework
+## Tutorial
+Run the tutorial by using this command: 
+```bash
+~$: `python reinforce.py`
+```
+If you want to see your CartPole uncomment lines 109 and 124. Then run the code on MobaXterm.
 
-![descarga](https://user-images.githubusercontent.com/66916962/91675175-06cfd580-eb01-11ea-99ea-c318809edb04.png)
+## Homework
+1. Explore and understand the code. Change hyperparameters such as 
+![image](https://user-images.githubusercontent.com/66916962/92253564-45fd7e00-ee95-11ea-909e-8e4550f8fa47.png)
+![image](https://user-images.githubusercontent.com/66916962/92252701-35003d00-ee94-11ea-9099-3d40c565ec11.png)

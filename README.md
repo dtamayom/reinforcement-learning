@@ -28,7 +28,7 @@ If you want to see your CartPole uncomment lines 109 and 124. Then run the code 
 
 ## Homework
 - (2 points) Explore and understand the code. Change hyperparameters and try to change the Policy class by adding or changing layers. Show your results and comment. 
-- (2 points) For two of your best results, graph Episodes vs Avrage reward. Was the graph what you were expecting? Analyze. 
+- (2 points) For two of your best results, graph Episodes vs Average reward. Was the graph what you were expecting? Analyze. 
 - (1 point) Try a different environment, choose between [Acrobot-V1](http://gym.openai.com/envs/Acrobot-v1/) and [MountainCar-V0](http://gym.openai.com/envs/MountainCar-v0/). What changed about the previous environment? How well did the agent performed in your chosen environment? 
 
 Mountain Car:

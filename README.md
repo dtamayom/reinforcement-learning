@@ -20,19 +20,32 @@ The required dependencies and their corresponding compatible versions are includ
 If you have any questions regarding the assignment or RL overall, you can contact us via email or through slack. Remember that you also have the [presentation](RL.pdf) and the [textbook reference books](https://drive.google.com/drive/folders/1bDjUuXlv1xeuA2hJ1TjyjH6WJmZOPTR9?usp=sharing) at your disposal.
 
 ## Tutorial
-Run the tutorial by using this command: 
+This tutorial is a simple implementation of CartPole, one of the available environments in OpenAI-Gym. It consists of a pole attached to a cart moving along a frictionless track. The goal is to prevent the pole from falling over by controlling the force apllied to the cart. Run the tutorial by using this command: 
 ```bash
 ~$: `python reinforce.py`
 ```
-If you want to see your CartPole uncomment lines 109 and 124. Then run the code on MobaXterm.
+
+
+If you want to see your CartPole moving, uncomment lines 109 and 124, then run the code on MobaXterm. If you are not able to see the video, remember that the server has no automatic video display. This is why you need to use a virtual framebuffer such as XServer (which comes with MobaXterm) or XQuartz. You might also need to include the -X or -Y flag before you log in: 
+```bash
+~$: `ssh -X yourusername@10.241.69.140`
+```
+If you have any problems, consult this [troubleshooting guide](https://stackoverflow.com/questions/40195740/how-to-run-openai-gym-render-over-a-server).
+
+![image](https://user-images.githubusercontent.com/66916962/92253564-45fd7e00-ee95-11ea-909e-8e4550f8fa47.png)
 
 ## Homework
-- (2 points) Explore and understand the code. Change hyperparameters and try to change the Policy class by adding or changing layers. Show your results and comment. 
-- (2 points) For two of your best results, graph Episodes vs Average reward. Was the graph what you were expecting? Analyze. 
-- (1 point) Try a different environment, choose between [Acrobot-V1](http://gym.openai.com/envs/Acrobot-v1/) and [MountainCar-V0](http://gym.openai.com/envs/MountainCar-v0/). What changed about the previous environment? How well did the agent performed in your chosen environment? 
+- (2 points) Explore and understand the code. Change hyperparameters and try to change the Policy class by adding or modifying layers. Show your results in an organized table and discuss them. What do you think lead to your best result? Which changes caused the most variation?
+- (1 point) For two of your best results, graph Episodes vs Average Reward. Was the graph what you were expecting? Analyze. 
+- (2 points) Try a different environment! Choose between [Acrobot-V1](http://gym.openai.com/envs/Acrobot-v1/) and [MountainCar-V0](http://gym.openai.com/envs/MountainCar-v0/). What changed compared to the previous environment? How well did the agent perform in your chosen environment? 
 
 Mountain Car:
 ![image](https://user-images.githubusercontent.com/66916962/92253564-45fd7e00-ee95-11ea-909e-8e4550f8fa47.png)
 
 Acrobot:
 ![image](https://user-images.githubusercontent.com/66916962/92280025-24fd5300-eebe-11ea-8654-f08541bd0cc3.png)
+
+Include the script for your best result on CartPole and your working code for the alternative environment. 
+
+Bonus:
+Investigate about RL environment packages other than OpenAI-Gym. How might they be useful for different tasks?

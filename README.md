@@ -50,5 +50,5 @@ Acrobot:
 
 Include the script for your best result on CartPole and your working code for the alternative environment. 
 
-###Bonus:
+##Bonus:
 Investigate about RL environment packages other than OpenAI-Gym. How might they be useful for different tasks?

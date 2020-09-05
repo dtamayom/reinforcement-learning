@@ -1,8 +1,8 @@
 # Reinforcement Learning
 Reinforcement Learning module on Advanced Machine Learning course at Universidad de los Andes.
 
-Students: Daniela Tamayo and Isabella Ramos.
-Tutor: Laura Daza and Catalina Gomez
+Students: Daniela Tamayo and Isabella Ramos.          
+Tutors: Laura Daza and Catalina Gomez
 
 
 ## Before you begin
@@ -46,9 +46,9 @@ Mountain Car:
 
 Acrobot:
 
-![image](https://svbtleusercontent.com/93Tx9HUAsokfh8i3ce8wCY0xspap.gif
+![image](https://svbtleusercontent.com/93Tx9HUAsokfh8i3ce8wCY0xspap.gif)
 
 Include the script for your best result on CartPole and your working code for the alternative environment. 
 
-Bonus:
+###Bonus:
 Investigate about RL environment packages other than OpenAI-Gym. How might they be useful for different tasks?

@@ -32,7 +32,7 @@ If you want to see your CartPole moving, uncomment lines 109 and 124, then run t
 ```
 If you have any problems, consult this [troubleshooting guide](https://stackoverflow.com/questions/40195740/how-to-run-openai-gym-render-over-a-server).
 
-![image](https://user-images.githubusercontent.com/66916962/92253564-45fd7e00-ee95-11ea-909e-8e4550f8fa47.png)
+![image](https://cdn-images-1.medium.com/max/1200/1*oMSg2_mKguAGKy1C64UFlw.gif)
 
 ## Homework
 - (2 points) Explore and understand the code. Change hyperparameters and try to change the Policy class by adding or modifying layers. Show your results in an organized table and discuss them. What do you think lead to your best result? Which changes caused the most variation?

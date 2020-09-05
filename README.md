@@ -11,24 +11,24 @@ You will have to ensure that all installed dependencies are compatible, otherwis
 The required dependencies and their corresponding compatible versions are included in the file `requirements.txt`. To create the enfironment and install the requirenments we recomend you to use:
 
 ```bash
-~$: `conda create --name rl python=3.7.4`
-~$: `conda activate rl`
-~$: `conda install pytorch torchvision cudatoolkit=10.1 -c pytorch`
-~$: `pip install -r requirements.txt`.
+~$: conda create --name rl python=3.7.4
+~$: conda activate rl
+~$: conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+~$: pip install -r requirements.txt
 ```
 
 If you have any questions regarding the assignment or RL overall, you can contact us via email or through slack. Remember that you also have the [presentation](RL.pdf) and the [textbook reference books](https://drive.google.com/drive/folders/1bDjUuXlv1xeuA2hJ1TjyjH6WJmZOPTR9?usp=sharing) at your disposal.
 
 ## Tutorial
-This tutorial is a simple implementation of CartPole, one of the available environments in OpenAI-Gym. It consists of a pole attached to a cart moving along a frictionless track. The goal is to prevent the pole from falling over by controlling the force apllied to the cart. Run the tutorial by using this command: 
+This tutorial is a simple implementation of [CartPole](https://gym.openai.com/envs/CartPole-v1/), one of the available environments in OpenAI-Gym. It consists of a pole attached to a cart moving along a frictionless track. The goal is to prevent the pole from falling over by controlling the force apllied to the cart. Run the tutorial by using this command: 
 ```bash
-~$: `python reinforce.py`
+~$: python reinforce.py
 ```
 
 
 If you want to see your CartPole moving, uncomment lines 109 and 124, then run the code on MobaXterm. If you are not able to see the video, remember that the server has no automatic video display. This is why you need to use a virtual framebuffer such as XServer (which comes with MobaXterm) or XQuartz. You might also need to include the -X or -Y flag before you log in: 
 ```bash
-~$: `ssh -X yourusername@10.241.69.140`
+~$: ssh -X yourusername@10.241.69.140
 ```
 If you have any problems, consult this [troubleshooting guide](https://stackoverflow.com/questions/40195740/how-to-run-openai-gym-render-over-a-server).
 

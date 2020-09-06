@@ -17,7 +17,7 @@ The required dependencies and their corresponding compatible versions are includ
 ~$: pip install -r requirements.txt
 ```
 
-If you have any questions regarding the assignment or RL overall, you can contact us via email or through slack. Remember that you also have the [presentation](Reinforcement_Learning.pdf) and the [textbook reference books](https://drive.google.com/drive/folders/1bDjUuXlv1xeuA2hJ1TjyjH6WJmZOPTR9?usp=sharing) at your disposal.
+If you have any questions regarding the assignment or RL overall, you can contact us via email or through slack. Remember that you also have the [presentation](ReinforcementLearning.pdf) and the [textbook reference books](https://drive.google.com/drive/folders/1bDjUuXlv1xeuA2hJ1TjyjH6WJmZOPTR9?usp=sharing) at your disposal.
 
 ## Tutorial
 This tutorial is a simple implementation of [CartPole-v0](https://gym.openai.com/envs/CartPole-v1/), one of the available environments in OpenAI-Gym. It consists of a pole attached to a cart moving along a frictionless track. The goal is to prevent the pole from falling over by controlling the force apllied to the cart. Run the tutorial by using this command: 

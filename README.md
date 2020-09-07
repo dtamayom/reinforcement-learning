@@ -52,3 +52,7 @@ Include the script for your best result on CartPole and your working code for th
 
 ## Bonus:
 Investigate about RL environment packages other than OpenAI-Gym. How might they be useful for different tasks?
+
+## References:
+Chintala et. Al. Pytorch Examples (2020) Reinforcement learning. [GitHub link](https://github.com/pytorch/examples.git)
+
